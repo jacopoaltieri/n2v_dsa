@@ -193,7 +193,7 @@ class N2V_DataGenerator():
                 print("XY-Plane is not square. Omit augmentation!")
 
         np.random.shuffle(patches)
-        print('Generated patches:', patches.shape)
+        # print('Generated patches:', patches.shape)
         return patches
 
     def __extract_patches__(self, data, num_patches=None, shape=(256, 256), n_dims=2):
